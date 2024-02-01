@@ -17,7 +17,7 @@ public class UserController {
 
   @GetMapping("")
   public String home(){
-    return "boom home page";
+    return "boom home pagee";
   }
 
   @RequestMapping(value = "/addUser", method = RequestMethod.POST)
