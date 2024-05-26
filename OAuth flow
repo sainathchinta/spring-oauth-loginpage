@@ -1,0 +1,5 @@
+oauth flow  
+1.user selects which app to login
+2.user gets redirected to app
+3.user accepts/denies the request
+4.if accepts will receive token from app authorisation source
