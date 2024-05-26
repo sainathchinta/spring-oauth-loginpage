@@ -1,5 +1,7 @@
-oauth flow  
-1.user selects which app to login
-2.user gets redirected to app
-3.user accepts/denies the request
-4.if accepts will receive token from app authorisation source
+1. **User Selection**: The user selects an OAuth2 provider (such as Google, GitHub, etc.) to authenticate with. 🔍
+2. **Redirection to Provider**: The user is redirected to the chosen OAuth2 provider’s authorization server. 🔄
+3. **Authorization Grant**: The user is prompted to authorize the application to access specific information. The user can accept or deny this request. ✅❌
+4. **Token Exchange**: Upon acceptance, the authorization server redirects the user back to the application with an authorization code. 🔑
+5. **Token Retrieval**: The application exchanges the authorization code for an access token from the provider’s token endpoint. 🛠️
+6. **Resource Access**: The application uses the access token to retrieve the user’s details and authorized resources from the provider’s resource server. 📄🔐
+7. **Authentication and Access**: The user is authenticated within the application and granted access based on the retrieved information. 🔓
